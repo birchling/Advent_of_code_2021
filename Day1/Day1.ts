@@ -1,3 +1,4 @@
+export {};
 const depthReadingsString = await Deno.readTextFile("./input.txt");
 
 const depthReadings = depthReadingsString.split("\n");
